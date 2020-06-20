@@ -6,8 +6,8 @@ class Questao:
         self.respostas = ['Sei lá', 'Estou com sono', 'Mais tarde talvez', 'Vamos ver', 'Creio que não','Amanhã pode ser']
     
     def Iniciar(self):
-        input('Faça sua pergunta: ') # inicie o debug aqui (coloque um breakpoint)
-        print('Deixa eu pensar...') # Para a execução aqui novamente usando um break point
+        input('Faça sua pergunta: ') 
+        print('Deixa eu pensar...') 
         time.sleep(random.randint(3,6))
         self.Responder()
         
