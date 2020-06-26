@@ -29,5 +29,6 @@ class Questao:
 
         print(f'Parabéns, levou {self.tentativas} tentativas para acertar')
 
+    
 questao = Questao()
 questao.Resolver()
